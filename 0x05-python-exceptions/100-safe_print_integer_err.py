@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-
 import sys
+
 
 def safe_print_integer_err(value):
     """Prints an integer with "{:d}".format().
@@ -8,7 +8,6 @@ def safe_print_integer_err(value):
     message is printed to standard error.
     Args:
         value (int): The integer to print.
-
     Returns:
         If a TypeError or ValueError occurs - False.
         Otherwise - True.
